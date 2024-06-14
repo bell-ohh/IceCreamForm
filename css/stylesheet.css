@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&family=Tenor+Sans&display=swap");
+
+
+body {
+	background-color: #ffe2be;
+	padding-top: 140px;
+	padding-left: 140px;
+}
+
+.plasticblue {
+	font-family: "Tenor Sans", sans-serif;
+	padding: 50px;
+	width: 65%;
+	background-color: #0193b3;
+	border-radius: 20px;
+	color: white;
+	margin: 2rem auto;
+}
+
+h1 {
+	color: #f130ff;
+	font-family: "Paytone One", sans-serif;
+	text-align: center;
+	font-size: 3rem;
+}
+
+input[type="submit"] {
+	padding: 15px;
+	border-radius: 10px;
+	font-family: "Tenor Sans", sans-serif;
+	color: #0193b3;
+	border: none;
+	font-size: 1.1rem;
+	display: block;
+	cursor: pointer;
+	margin-top: 1rem;
+}
+
+.input-wrapper {
+	display: flex;
+  flex-direction: row;
+	align-content: flex-start;
+	justify-content: space-between;
+	align-items: center;
+}
+
+input[type="tel"],
+input[type="email"],
+input[type="text"] {
+	border-radius: 3px;
+	border: none;
+	width: 80%;
+}
+
+.submit-btn-wrppr {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+/* MEDIA QUERY PORTION */
+
+@media (max-width: 500px) {
+	.breakp {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+}
