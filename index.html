@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,96 +8,98 @@
 	<title>Ice Cream Form</title>
 	<link href="css/stylesheet.css" rel="stylesheet">
 </head>
+
 <body>
 	<h1>Fill out the Form to place your ice cream order!</h1>
 
-<div class="plasticblue">
-	<h6>* Required field</h6>
-	<form action="form">
-		<div class="input-wrapper">
-			<label for="first">Name:</label>
-			<input type="text" id="first" name="first">
-		</div>
-		<div class="input-wrapper">
-			<label for="email">Email :</label>
-			<input type="email" id="email" name="email">
-		</div>
-		<div class="input-wrapper">
-			<label for="phone">Phone:</label>
-			<input type="tel" id="phone" name="phone">
-		</div>
-		<label for="flavors"> Choose a Flavor:</label>
+	<div class="plasticblue">
+		<h6>* Required field</h6>
+		<form action="form">
+			<div class="input-wrapper">
+				<label for="first">Name*</label>
+				<input type="text" id="first" name="first">
+			</div>
+			<div class="input-wrapper">
+				<label for="email">Email*</label>
+				<input type="email" id="email" name="email">
+			</div>
+			<div class="input-wrapper">
+				<label for="phone">Phone*</label>
+				<input type="tel" id="phone" name="phone">
+			</div>
+			<label for="flavors"> Choose a Flavor:</label>
 
-		<div class="breakp">
-			<select name="flavors" id="flavor">
+			<div class="breakp">
+				<select name="flavors" id="flavor">
 
-				<option value="" disabled selected value "">Flavors</option>
+					<option value="" disabled selected value "">Flavors</option>
 
-				<option value="Raspberry Cheesecake">Raspberry Cheesecake</option>
+					<option value="Raspberry Cheesecake">Raspberry Cheesecake</option>
 
-				<option value="Gooey Butter Cake">Ooey Gooey Butter Cake</option>
+					<option value="Gooey Butter Cake">Ooey Gooey Butter Cake</option>
 
-				<option value="Frosé Sorbet">Frosé Sorbet</option>
+					<option value="Frosé Sorbet">Frosé Sorbet</option>
 
-				<option value="Lemon & Blueberry Parfait">Lemon & Blueberry Parfait</option>
+					<option value="Lemon & Blueberry Parfait">Lemon & Blueberry Parfait</option>
 
-				<option value="Wildberry Lavender">Wildberry Lavender</option>
+					<option value="Wildberry Lavender">Wildberry Lavender</option>
 
-				<option value="Banana Pudding">Banana Pudding</option>
+					<option value="Banana Pudding">Banana Pudding</option>
 
-				<option value="Boston Cream Pie">Boston Cream Pie</option>
+					<option value="Boston Cream Pie">Boston Cream Pie</option>
 
-			</select>
+				</select>
 
-		</div>
+			</div>
 
-		<p>Cup or Cone?</p>
+			<p>Cup or Cone?</p>
 
-		<div class="breakp">
-			<input type="radio" id="cone" name="holding-type" value="cone">
-			<label for="cone">Cone</label>
-		</div>
+			<div class="breakp">
+				<input type="radio" id="cone" name="holding-type" value="cone">
+				<label for="cone">Cone</label>
+			</div>
 
-		<div class="breakp">
-			<input type="radio" id="bowl" name="holding-type" value="paper">
-			<label for="bowl">Bowl</label>
-		</div>
+			<div class="breakp">
+				<input type="radio" id="bowl" name="holding-type" value="paper">
+				<label for="bowl">Bowl</label>
+			</div>
 
-		<div class="breakp">
-			<input type="radio" id="cup" name="holding-type" value="cup">
-			<label for="cup">Cup</label>
-		</div>
+			<div class="breakp">
+				<input type="radio" id="cup" name="holding-type" value="cup">
+				<label for="cup">Cup</label>
+			</div>
 
-		<div class="breakp">
-			<input type="radio" id="wCone" name="holding-type" value="wafflecone">
-			<label for="wCone">Waffle Cone</label>
-		</div>
+			<div class="breakp">
+				<input type="radio" id="wCone" name="holding-type" value="wafflecone">
+				<label for="wCone">Waffle Cone</label>
+			</div>
 
-		<div class="breakp">
-			<input type="radio" id="wbowl" name="holding-type" value="bowl">
-			<label for="wbowl">Waffle Bowl</label>
-		</div>
+			<div class="breakp">
+				<input type="radio" id="wbowl" name="holding-type" value="bowl">
+				<label for="wbowl">Waffle Bowl</label>
+			</div>
 
-		<p>Please Choose One (or more!): </p>
-		<div class="breakp">
-			<input type="checkbox" id="Sprinkled" name="Sprinkle" value="Sprinkles">Sprinkles
-		</div>
+			<p>Please Choose One (or more!): </p>
+			<div class="breakp">
+				<input type="checkbox" id="Sprinkled" name="Sprinkle" value="Sprinkles">Sprinkles
+			</div>
 
-		<div class="breakp">
-			<input type="checkbox" id="Cherrybomb" name="Cherries" value="Cherry">Cherry
-		</div>
+			<div class="breakp">
+				<input type="checkbox" id="Cherrybomb" name="Cherries" value="Cherry">Cherry
+			</div>
 
-		<div class="breakp">
-			<input type="checkbox" id="Whipped Cream" name="Whippedtopping" value="CoolWhip">Whipped Cream
-		</div>
+			<div class="breakp">
+				<input type="checkbox" id="Whipped Cream" name="Whippedtopping" value="CoolWhip">Whipped Cream
+			</div>
 
-		<div class="submit-btn-wrppr">
-			<input type="submit" value="Submit Order">
+			<div class="submit-btn-wrppr">
+				<input type="submit" value="Submit Order">
 
-		</div>
-	</form>
-</div>
+			</div>
+		</form>
+	</div>
 
-<div>
+	<div>
 </body>
+
 </html>

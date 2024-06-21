@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Paytone+One&family=Tenor+Sans&display=swap");
 
-
 body {
 	background-color: #ffe2be;
 	padding-top: 140px;
@@ -15,6 +14,11 @@ body {
 	border-radius: 20px;
 	color: white;
 	margin: 2rem auto;
+}
+
+h6 {
+	display: flex;
+	flex-direction: row-reverse;
 }
 
 h1 {
@@ -38,10 +42,11 @@ input[type="submit"] {
 
 .input-wrapper {
 	display: flex;
-  flex-direction: row;
+	flex-direction: row;
 	align-content: flex-start;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 1rem;
 }
 
 input[type="tel"],
@@ -61,8 +66,11 @@ input[type="text"] {
 /* MEDIA QUERY PORTION */
 
 @media (max-width: 500px) {
-	.breakp {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
+	.input-wrapper {
+		flex-direction: column;
+		align-items: start;
 	}
 }
+
+/* fix my h6 
+put the margin bottom everywhere*/
